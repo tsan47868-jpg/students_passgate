@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="638" viewBox="0 0 1012 638" role="img" aria-labelledby="cardTitle cardDesc">
+  <title id="cardTitle">Illustrative PassGate student identification card</title>
+  <desc id="cardDesc">A sample front-side student ID card showing a photograph placeholder, the student name, the identification number PG-26-000001, active status, centre name and a QR code placeholder.</desc>
+
+  <defs>
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081A33"/>
+      <stop offset="1" stop-color="#123B6D"/>
+    </linearGradient>
+    <linearGradient id="photoGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8F3FA"/>
+      <stop offset="1" stop-color="#C4DAEA"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0B1F3A" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="8" y="8" width="996" height="622" rx="32"/>
+    </clipPath>
+  </defs>
+
+  <rect x="8" y="8" width="996" height="622" rx="32" fill="#F8FAFC" filter="url(#cardShadow)"/>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Header -->
+    <rect x="8" y="8" width="996" height="150" fill="url(#headerGradient)"/>
+    <circle cx="930" cy="40" r="118" fill="#22D3EE" fill-opacity="0.08"/>
+    <circle cx="930" cy="40" r="78" fill="#22D3EE" fill-opacity="0.07"/>
+
+    <rect x="48" y="40" width="66" height="66" rx="18" fill="#22D3EE"/>
+    <path d="M64 87V69c0-9 7-16 16-16s16 7 16 16v18" fill="none" stroke="#081A33" stroke-width="5" stroke-linecap="round"/>
+    <path d="M64 87h32M72 87V75M82 87V75" fill="none" stroke="#081A33" stroke-width="5" stroke-linecap="round"/>
+
+    <text x="132" y="73" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="31" font-weight="800" letter-spacing="2.2" fill="#FFFFFF">PASSGATE</text>
+    <text x="133" y="98" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" letter-spacing="3" fill="#7DD3FC">STUDENT IDENTIFICATION CARD</text>
+
+    <rect x="786" y="50" width="176" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="874" y="74" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2" fill="#D8F3FF">CENTRE ACCESS ID</text>
+
+    <!-- Photograph placeholder -->
+    <rect x="48" y="190" width="250" height="316" rx="22" fill="url(#photoGradient)" stroke="#D7E3EF" stroke-width="1.5"/>
+    <circle cx="173" cy="298" r="54" fill="#8FB6D2"/>
+    <path d="M95 478c8-69 38-106 78-106s70 37 78 106z" fill="#8FB6D2"/>
+    <rect x="48" y="462" width="250" height="44" fill="#0B1F3A" fill-opacity="0.08"/>
+    <text x="173" y="489" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8" fill="#48627C">REGISTERED PHOTOGRAPH</text>
+
+    <!-- Student details -->
+    <text x="338" y="214" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.6" fill="#6B7C93">STUDENT NAME</text>
+    <text x="338" y="255" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#0B1F3A">STUDENT FULL NAME</text>
+    <line x1="338" y1="277" x2="708" y2="277" stroke="#DCE5F0" stroke-width="1.5"/>
+
+    <text x="338" y="310" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.6" fill="#6B7C93">IDENTIFICATION NUMBER</text>
+    <text x="338" y="352" font-family="Consolas, 'Courier New', monospace" font-size="33" font-weight="700" letter-spacing="1" fill="#0B4A8F">PG-26-000001</text>
+
+    <rect x="338" y="376" width="120" height="38" rx="19" fill="#DCFCE7"/>
+    <circle cx="358" cy="395" r="6" fill="#16A34A"/>
+    <text x="372" y="400" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="800" letter-spacing="1.2" fill="#166534">ACTIVE</text>
+
+    <text x="338" y="454" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2.4" fill="#6B7C93">CENTRE</text>
+    <text x="338" y="487" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0B1F3A">YOUR LEARNING CENTRE</text>
+
+    <!-- QR panel -->
+    <rect x="764" y="330" width="190" height="224" rx="20" fill="#FFFFFF" stroke="#DCE5F0" stroke-width="1.5"/>
+    <rect x="790" y="350" width="138" height="138" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+
+    <!-- QR finder patterns -->
+    <rect x="799" y="359" width="36" height="36" rx="2" fill="#0B1F3A"/>
+    <rect x="808" y="368" width="18" height="18" fill="#FFFFFF"/>
+    <rect x="813" y="373" width="8" height="8" fill="#0B1F3A"/>
+
+    <rect x="883" y="359" width="36" height="36" rx="2" fill="#0B1F3A"/>
+    <rect x="892" y="368" width="18" height="18" fill="#FFFFFF"/>
+    <rect x="897" y="373" width="8" height="8" fill="#0B1F3A"/>
+
+    <rect x="799" y="443" width="36" height="36" rx="2" fill="#0B1F3A"/>
+    <rect x="808" y="452" width="18" height="18" fill="#FFFFFF"/>
+    <rect x="813" y="457" width="8" height="8" fill="#0B1F3A"/>
+
+    <!-- QR data modules -->
+    <g fill="#0B1F3A">
+      <rect x="845" y="360" width="7" height="7"/><rect x="858" y="360" width="7" height="7"/><rect x="871" y="360" width="7" height="7"/>
+      <rect x="852" y="367" width="7" height="7"/><rect x="865" y="367" width="7" height="7"/>
+      <rect x="845" y="374" width="7" height="7"/><rect x="865" y="374" width="7" height="7"/><rect x="878" y="374" width="7" height="7"/>
+      <rect x="852" y="381" width="7" height="7"/><rect x="871" y="381" width="7" height="7"/>
+      <rect x="845" y="388" width="7" height="7"/><rect x="858" y="388" width="7" height="7"/><rect x="878" y="388" width="7" height="7"/>
+      <rect x="852" y="395" width="7" height="7"/><rect x="865" y="395" width="7" height="7"/><rect x="878" y="395" width="7" height="7"/>
+      <rect x="845" y="402" width="7" height="7"/><rect x="858" y="402" width="7" height="7"/><rect x="871" y="402" width="7" height="7"/>
+      <rect x="852" y="409" width="7" height="7"/><rect x="865" y="409" width="7" height="7"/>
+      <rect x="845" y="416" width="7" height="7"/><rect x="858" y="416" width="7" height="7"/><rect x="878" y="416" width="7" height="7"/>
+      <rect x="852" y="423" width="7" height="7"/><rect x="871" y="423" width="7" height="7"/>
+      <rect x="845" y="430" width="7" height="7"/><rect x="865" y="430" width="7" height="7"/><rect x="878" y="430" width="7" height="7"/>
+      <rect x="852" y="437" width="7" height="7"/><rect x="858" y="437" width="7" height="7"/><rect x="871" y="437" width="7" height="7"/>
+      <rect x="845" y="444" width="7" height="7"/><rect x="858" y="444" width="7" height="7"/><rect x="878" y="444" width="7" height="7"/>
+      <rect x="845" y="451" width="7" height="7"/><rect x="865" y="451" width="7" height="7"/><rect x="878" y="451" width="7" height="7"/>
+      <rect x="858" y="458" width="7" height="7"/><rect x="871" y="458" width="7" height="7"/>
+      <rect x="845" y="465" width="7" height="7"/><rect x="852" y="465" width="7" height="7"/><rect x="865" y="465" width="7" height="7"/><rect x="878" y="465" width="7" height="7"/>
+    </g>
+
+    <text x="859" y="514" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#6B7C93">SCAN TO VERIFY</text>
+    <text x="859" y="536" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10" fill="#8A9AAE">QR contains ID only</text>
+
+    <!-- Footer -->
+    <line x1="48" y1="558" x2="724" y2="558" stroke="#DCE5F0" stroke-width="1.5"/>
+    <text x="48" y="586" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="600" fill="#48627C">Valid while registration is active</text>
+    <text x="48" y="606" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="10.5" fill="#8A9AAE">If found, please return this card to the learning centre.</text>
+
+    <rect x="8" y="8" width="996" height="622" rx="32" fill="none" stroke="#D7E3EF" stroke-width="2"/>
+  </g>
+</svg>

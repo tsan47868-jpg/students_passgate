@@ -1,0 +1,143 @@
+.auth-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  overflow-y: auto;
+  padding: 24px;
+  background: radial-gradient(circle at 15% 15%, #e8f1fb 0, transparent 34%), #f7f9fc;
+}
+
+.auth-card {
+  width: min(100%, 430px);
+  padding: 32px;
+  border: 1px solid #e8edf2;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 18px 55px #203b5512;
+}
+
+.auth-brand {
+  padding: 0 0 30px;
+}
+
+.auth-card h1 {
+  margin: 11px 0 6px;
+  color: #17314a;
+  font: 700 24px Manrope, sans-serif;
+}
+
+.auth-description {
+  margin-bottom: 18px;
+  color: #8796a5;
+  font-size: 11px;
+}
+
+.auth-notice {
+  padding: 10px 11px;
+  border: 1px solid #f1e7cd;
+  border-radius: 7px;
+  background: #fffaf0;
+  color: #8e713a;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.auth-card form {
+  margin-top: 20px;
+}
+
+.auth-card .form-label {
+  margin-bottom: 14px;
+}
+
+.auth-card .form-input {
+  margin-top: 7px;
+}
+
+.auth-submit {
+  width: 100%;
+  margin-top: 5px;
+  height: 40px;
+}
+
+.auth-error {
+  margin: 0 0 12px;
+  color: #b86652;
+  font-size: 10px;
+}
+
+.account-panel {
+  padding: 20px;
+}
+
+.account-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+  align-items: end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.account-form .form-label {
+  margin: 0;
+}
+
+.account-form .primary-button {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.account-list {
+  margin-top: 20px;
+  border-top: 1px solid #edf1f4;
+}
+
+.account-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 2px;
+  border-bottom: 1px solid #f0f3f6;
+}
+
+.account-row strong,
+.account-row span {
+  display: block;
+}
+
+.account-row strong {
+  color: #3a536a;
+  font-size: 10px;
+}
+
+.account-row div span {
+  margin-top: 3px;
+  color: #9ca8b4;
+  font-size: 9px;
+}
+
+.account-row .account-role {
+  padding: 5px 8px;
+  border-radius: 12px;
+  background: #eef4fb;
+  color: #527da5;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .auth-screen {
+    padding: 16px;
+  }
+
+  .auth-card {
+    padding: 24px 20px;
+  }
+
+  .account-form {
+    grid-template-columns: 1fr;
+  }
+}
